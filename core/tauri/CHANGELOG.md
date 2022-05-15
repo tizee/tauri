@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.0.0-rc.11]
+
+- Fix `.mjs` not being recognised as a file extension for JavaScript files (`text/javascript`).
+  - [45c45253](https://www.github.com/tauri-apps/tauri/commit/45c45253866ce0de317a6a547af3ea0434d4bcac) fix: add mjs mime type (fix: [#4098](https://www.github.com/tauri-apps/tauri/pull/4098)) ([#4108](https://www.github.com/tauri-apps/tauri/pull/4108)) on 2022-05-13
+- Added `PathResolver::resolve_resource` API.
+  - [e35aaebc](https://www.github.com/tauri-apps/tauri/commit/e35aaebc309f5796cf6f380d1ac7d5a8094b9033) feat(core): add `PathResolver::resolve_resource` API ([#4116](https://www.github.com/tauri-apps/tauri/pull/4116)) on 2022-05-13
+
 ## \[1.0.0-rc.10]
 
 - Update wry to 0.16.2 and webkit2gtk to 0.18.0.

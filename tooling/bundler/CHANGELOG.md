@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-rc.7]
+
+- Fixes resource bundling on Windows when the resource path includes root or parent directory components.
+  - [787ea09a](https://www.github.com/tauri-apps/tauri/commit/787ea09adc40644b89926e2b629261065141d16c) fix: generate windows resource directories using resource_relpath, closes [#4087](https://www.github.com/tauri-apps/tauri/pull/4087). ([#4111](https://www.github.com/tauri-apps/tauri/pull/4111)) on 2022-05-13
+
 ## \[1.0.0-rc.6]
 
 - Remove `Settings::verbose` option. You may now bring your own `log` frontend to receive logging output from the bundler while remaining in control of verbosity and formatting.

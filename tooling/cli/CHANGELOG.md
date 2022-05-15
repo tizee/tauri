@@ -1,5 +1,11 @@
 # Changelog
 
+## \[1.0.0-rc.11]
+
+- Fixes resource bundling on Windows when the resource path includes root or parent directory components.
+  - Bumped due to a bump in tauri-bundler.
+  - [787ea09a](https://www.github.com/tauri-apps/tauri/commit/787ea09adc40644b89926e2b629261065141d16c) fix: generate windows resource directories using resource_relpath, closes [#4087](https://www.github.com/tauri-apps/tauri/pull/4087). ([#4111](https://www.github.com/tauri-apps/tauri/pull/4111)) on 2022-05-13
+
 ## \[1.0.0-rc.10]
 
 - Resolve binary file extension from target triple instead of compile-time checks to allow cross compilation.
